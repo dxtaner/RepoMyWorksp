@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body alani */
+body{
+    background: #fff;
+    color: #222;
+    font-family: arial, sans-serif;
+}
+
+div{
+    display: block;
+}
+
+/* üst alan */
+div#ustbilgi{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: 8px;
+    font-size: small;
+}
+
+div#ustbilgi>a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+div#ustbilgi>a:hover{
+    text-decoration: underline;
+    opacity: .95;
+}
+
+div#ustbilgi>a.kare:hover{
+   border:0.1px solid #70757a;
+   border-radius: 25px;
+}
+
+.named{
+    border-radius: 50%;
+    display: block;
+    margin: 0px;
+    margin-left:5px;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+/* orta alan */
+#ortabilgi{
+    margin:70px 480px;
+}
+
+.googleimg{    
+    text-align: center;
+    margin-left: auto;
+}
+
+.search{
+    width: 480px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.search-icon{
+    display: block;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 25px;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    outline: none;
+}
+
+.buyutec{
+    width: 20px;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.mic-icon{
+    width: 18px;
+    position: absolute;
+    top: 5px;
+    right: -13px;
+}
+
+.klayve-icon{
+    width: 30px;
+    margin-right: 20px;
+    position: absolute;
+    top: 5px;
+    right: 2px;
+}
+
+/* buton orta alani  */
+#buttonalani{
+    text-align: center;
+    margin-top: -38px;
+    margin-left: 95px;
+}
+#buttonalani>a{
+    width: 200px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    height: 36px;
+    border:1px solid  #f2f2f2;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+#buttonalani>a:hover{
+    border: 0.5px solid gray;
+}
+
+.paragraf{
+    text-align: center;
+    margin-left: 75px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.paragraf>p>a{
+    text-decoration: none;
+}
+.paragraf>p>a:hover{
+    text-decoration: underline;
+}
+
+/* alt alan */
+#footer{
+    overflow: hidden;
+    bottom: 0;
+    position: fixed;
+    width:100%;
+    background-color: #f1f1f1; 
+}
+
+.birinci{
+    color: #70757a;
+    font-size: 10px;
+    padding: 15px 30px;
+}
+
+.ikincibir a{
+    float: left;
+    display: block;
+    color: #5f6368;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 12px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.ikinciiki a{
+    color: #5f6368;
+    float: right;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin-right: 12px;
+    font-size: 12px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
