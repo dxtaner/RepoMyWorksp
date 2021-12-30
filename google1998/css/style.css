@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+input{
+    border: 1px solid black;
+}
+
+p{
+    margin:1px;
+}
+
+.search{
+    background-color: #EEEE;
+    width: 1192px;
+    height: 80px;
+    margin-left: 7%;
+}
+
+.b1{
+    width: 29%;
+    margin-left: 7%;
+    background-color: #7EE5DA;
+}
+
+.b2{
+    width: 20%;
+    background-color: #70CCC2;
+}
+
+.b3{
+    width: 37%;
+    background-color: #62B3AA;
+}
+
+.b1, .b2, .b3{
+    float: left;
+    margin-right: 2px;
+    height: 80px;
+}
+
+footer{
+    display:inline-block;
+    margin-top: 20px;
+}
