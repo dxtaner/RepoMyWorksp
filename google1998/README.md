@@ -2,4 +2,4 @@
 
  Tasarım 
 
- <img src="/img/google1998tasarimi.png"/>
+ <img src="./img/google1998tasarim.png"/>
