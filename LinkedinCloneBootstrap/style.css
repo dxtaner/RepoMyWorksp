@@ -1,0 +1,38 @@
+.bg-ff{
+    background-color: #fff;
+}
+
+.nav-size{
+    font-size: 12px;
+}
+
+.nav-margin{
+    margin-left: 10px;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.search:hover{
+    padding-right: 180px;
+}
+
+.bg-ss{
+  background-color:rgb(243 242 239);
+}
+
+.grayy:hover{
+    background-color: rgb(231, 227, 227);
+}
+
+.text-gray > a{
+    color: grey;
+    padding: 5px;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.text-gray>a:hover{
+    text-decoration: underline;
+}
