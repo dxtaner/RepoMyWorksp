@@ -1,0 +1,25 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-purp{
+    background-color: rgb(196, 226, 255); border-bottom:1px solid black ;
+}
+
+.buttonase > li{
+    margin-bottom: 10px;
+}
+
+.linkg{
+    font-size: 12px; 
+    color: green;
+    text-decoration: none;
+}
+
+.linka{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    margin-left: 6px;
+    margin-top:3px;
+}
