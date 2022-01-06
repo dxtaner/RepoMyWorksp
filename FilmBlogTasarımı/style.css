@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* navbar  */
+.navbar-dark .navbar-brand:hover {
+    opacity: 0.7;
+
+}
+
+.navbar-nav .nav-link:hover {
+    opacity: 0.7;
+    background-color: darkgray;
+    border-radius: 5px ;
+}
+
+.form-control:hover{
+    background-color: rgb(187, 194, 187);
+    padding: 1em;
+}
+
+
+.card ul a {
+ text-decoration: none;
+ color:black;
+}
+
+
