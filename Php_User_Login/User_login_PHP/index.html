@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kullanıcı Girişi</title>
+	<meta charset="utf-8">
+	
+ 	<!-- Bootstrap CSS -->
+ 	<link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body style="background-color: #DFE3E2">
+	<br><br><br><br>
+	<div align="center">
+		<form action="giriskontrol.php" method="POST">
+        <div class="col-md-6">
+          <label class="col-form-label">Kullanici Adınız</label>
+          <input type="text" class="form-control" name="kullanici" maxlength="10">
+        </div>
+        <br>
+        <div class="col-md-6">
+          <label class="col-form-label">Şifreniz</label>
+          <input type="password" class="form-control" name="sifre" maxlength="10">
+        </div>
+        <br><br>
+        <div class="col-md-6">
+          <button type="submit" class="btn btn-danger btn-block" name="gonder">Giriş Yap</button>
+        </div>
+		</form>
+    
+
+	</div>
+
+
+
+
+
+     <!-- Optional JavaScript -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="js/jquery-3.3.1.slim.min.js"></script>
+     <script src="js/popper.js/1.14.7/umd/popper.min.js" ></script>
+     <script src="js/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
