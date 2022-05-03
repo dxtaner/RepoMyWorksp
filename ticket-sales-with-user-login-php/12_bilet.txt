@@ -1,0 +1,1 @@
+id=100,seferno=1,kalkisyeri=kayseri,varisyeri=konya,tarih=2020-06-04,saat=2020-06-04 10:30:00,

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Giris Sayfam
+	</title>
+
+	<meta charset="utf-8">
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body style="background-color: #E7F3FE">
+	<div class="container">
+
+		
+		<br><br>
+		<center>
+			<button type="button" data-toggle="collapse" data-target="#girisyap" class="btn btn-success">GİRİŞ YAP </button>
+			<button type="button" data-toggle="collapse" data-target="#kayitol" class="btn btn-success">KAYIT OL</button>
+		</center>
+
+		
+		<div class="collapse mt-4" id="kayitol">
+			<center>
+				<br><br><br>
+				<form action="bilgilerikaydet.php" method="POST">
+					Kullanci Adınız:
+					<input type=“text” name="kadi" maxlength="12">
+					<br><br>
+					Adınız: 
+					<input type="text" name="isim">
+					<br><br>
+					Soyadınız: 
+					<input type="text" name="soyad">
+					<br><br>
+					E-mail: 
+					<input type="email" name="email">
+					<br><br>
+					Sifre:
+					<input type="password" name="sifre" maxlength="15">
+					<br><br>
+					<button type="submit" class="btn btn-dark" name="git">Kayıt Ol</button>
+				</form>
+			</div>
+		</center>
+
+
+		<div class="collapse mt-4" id="girisyap">
+			<center>
+				<br><br><br>
+				<form action="giriskayit.php" method="POST">
+					<input placeholder="Kullanıcı Adınız" type=“text” name="k_adi" maxlength="12">
+					<br><br>
+					<input placeholder="Şifreniz" type="password" name="sifreniz" maxlength="15">
+					<br><br>
+					<button type="submit" class="btn btn-dark" name="git">Giriş Yap</button>
+				</form>
+			</center>
+		</div>
+
+
+	</div>
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="js/popper.js" ></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
