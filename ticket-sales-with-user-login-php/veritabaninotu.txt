@@ -1,0 +1,1 @@
+uyeler veritabanı altında uye tablosu, biletler veritabanı altında bilet tablosu bulunmaktadır.

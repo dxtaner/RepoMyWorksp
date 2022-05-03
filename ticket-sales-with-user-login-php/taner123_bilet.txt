@@ -1,0 +1,2 @@
+id=75,seferno=47,kalkisyeri=konya,varisyeri=ankara,tarih=2020-06-30,saat=2020-06-30 12:00:00,
+id=76,seferno=48,kalkisyeri=konya,varisyeri=ankara,tarih=2020-06-30,saat=2020-06-30 15:00:00,
